@@ -1606,7 +1606,7 @@ chartist@0.10.1:
   resolved "https://registry.yarnpkg.com/chartist/-/chartist-0.10.1.tgz#3dd513d531dfca6b78e777fe0500d9c7e6406931"
   integrity sha1-PdUT1THfymt453f+BQDZx+ZAaTE=
 
-chokidar@^1.6.0, chokidar@^1.6.1:
+chokidar@^1.6.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.7.0.tgz#798e689778151c8076b4b360e5edd28cda2bb468"
   integrity sha1-eY5ol3gVHIB2tLNg5e3SjNortGg=
@@ -1622,7 +1622,7 @@ chokidar@^1.6.0, chokidar@^1.6.1:
   optionalDependencies:
     fsevents "^1.0.0"
 
-chokidar@^2.0.2:
+chokidar@^2.0.2, chokidar@^2.0.4:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.5.tgz#0ae8434d962281a5f56c72869e79cb6d9d86ad4d"
   integrity sha512-i0TprVWp+Kj4WRPtInjexJ8Q+BqTE909VpH8xVhXrJkoc5QC8VO9TryGOqTr+2hljzc1sC62t22h5tZePodM/A==
@@ -5536,17 +5536,17 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-sass-chokidar@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/node-sass-chokidar/-/node-sass-chokidar-0.0.3.tgz#ba460efe41c8f14ce800aaa3606a7acbb1e630d1"
-  integrity sha1-ukYO/kHI8UzoAKqjYGp6y7HmMNE=
+node-sass-chokidar@1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/node-sass-chokidar/-/node-sass-chokidar-1.3.4.tgz#2f4539d13b14a0444b3354d4664d660ce9697fdc"
+  integrity sha512-AEKBr58QFzU37Ubud90K1n+ljEpTDekJm5UCS8ZyoWgHoz2qx8f2vAaN8rECbqF1vYPid64NZBh98AKzHh9D9A==
   dependencies:
     async-foreach "^0.1.3"
-    chokidar "^1.6.1"
+    chokidar "^2.0.4"
     get-stdin "^4.0.1"
     glob "^7.0.3"
     meow "^3.7.0"
-    node-sass "^4.5.3"
+    node-sass "^4.9.3"
     sass-graph "^2.1.1"
     stdout-stream "^1.4.0"
 
@@ -5574,7 +5574,7 @@ node-sass@4.6.1:
     sass-graph "^2.2.4"
     stdout-stream "^1.4.0"
 
-node-sass@^4.5.3:
+node-sass@^4.9.3:
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.11.0.tgz#183faec398e9cbe93ba43362e2768ca988a6369a"
   integrity sha512-bHUdHTphgQJZaF1LASx0kAviPH7sGlcyNhWade4eVIpFp6tsn7SV8xNMTbsQFpEV9VXpnwTTnNYlfsZXgGgmkA==
